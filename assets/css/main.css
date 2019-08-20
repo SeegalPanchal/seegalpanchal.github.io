@@ -1909,8 +1909,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: inset 0 0 0 2px rgb(255, 255, 255);
-			color: #ffffff !important;
+			box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.75);
+			color: #ffffffde !important;
 		}
 
 			input[type="submit"].alt:hover,

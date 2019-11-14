@@ -45,19 +45,6 @@ p {
   transition: color .25s ease-in-out,background-color .25s ease-in-out,border-color .25s ease-in-out,box-shadow .25s ease-in-out;
 }
 
-.contact-button {
-  background: none;
-  border: 1.5px solid #e9e9e9;
-  font-family: -apple-system,Arial,sans-serif;
-  font-weight: 300;
-  line-height: 1;
-  margin-top: 10px;
-  padding: 13px 26px;
-  transition: .1s ease-out;
-  -webkit-transition: .15s ease-out;
-  color: #e9e9e9;
-}
-
 .button:not(:disabled):not(.disabled) {
   cursor: pointer;
 }
@@ -72,6 +59,19 @@ p {
 
 .clear {
   clear: both;
+}
+
+.contact-button {
+  background: none;
+  border: 1.5px solid #e9e9e9;
+  font-family: -apple-system,Arial,sans-serif;
+  font-weight: 300;
+  line-height: 1;
+  margin-top: 10px;
+  padding: 13px 26px;
+  transition: .1s ease-out;
+  -webkit-transition: .15s ease-out;
+  color: #e9e9e9;
 }
 
 .left {
@@ -115,4 +115,13 @@ p {
 #pic {
   float: right;
   margin: -30px 0 0 0;
+}
+
+#projects {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  font-family: Roboto,sans-serif;
+  font-weight: 300;
+  margin: auto;
 }

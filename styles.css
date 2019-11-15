@@ -103,7 +103,7 @@ p {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: #57cc4f;
+        background: #78d472;
         text-align: center;
         line-height: 200px;
         -webkit-backface-visibility: hidden;
@@ -186,8 +186,11 @@ p {
 }
 
 @media only screen 
-and (max-width : 1000px) {
-    .left,
+and (max-width : 400px) {
+    .left {
+      position: relative;
+      width: 100%;
+    }
     .right {
         position: relative;
         width: 100%;

@@ -37,11 +37,7 @@ label {
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   display: block;
-  width: 90%;
-  height: 90%;
   position: absolute;
-  top: 5%;
-  left: 5%;
   cursor: pointer;
 }
 
@@ -103,7 +99,6 @@ p {
         position: absolute;
         height: 100%;
         width: 100%;
-        background: #78d472;
         text-align: center;
         line-height: 200px;
         -webkit-backface-visibility: hidden;

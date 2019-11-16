@@ -9,22 +9,28 @@
 
 html, body {
   font: 20px -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-  height: 100%;
+  height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
 }
 
+a {
+  height: 1vw !important;
+  width: 6vw !important;
+  max-height: 1vw !important;
+  max-width: 6vw !important;
+}
+
 h1 {
-  font-size: 70px;
+  font-size: 5vw;
   font-weight: bold;
-  letter-spacing: -2px;
   color: rgb(32, 32, 32);
-  margin-bottom: 2%;
+  margin-bottom: 1vh;
 }
 
 img {
-  width: 55%;
-  height: 65%;
+  height: 40vh;
+  width: 20vw;
 }
 
 input {
@@ -34,13 +40,13 @@ input {
 p {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: lighter;
-  line-height: 28px;
   color: rgb(59, 59, 59);
-  font-size: 20px;
-  margin-bottom: 2%;
+  font-size: 1.25vw;
+  margin-bottom: 1vh;
 }
 
 span {
+  font-size: 1vw;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -51,7 +57,7 @@ span {
   flex-wrap: wrap;
   align-content: center;
   justify-content: left;
-  margin: 0 10% 0 5%;
+  margin: 0 8vw 0 4vw;
 }
 
 .button {
@@ -66,8 +72,7 @@ span {
   user-select: none;
   border: 1px solid transparent;
   padding: .375rem .75rem;
-  font-size: 1rem;
-  line-height: 1.5;
+  font-size: 1vw;
   border-radius: .25rem;
   transition: color .25s ease-in-out,background-color .25s ease-in-out,border-color .25s ease-in-out,box-shadow .25s ease-in-out;
 }
@@ -76,50 +81,49 @@ span {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  height: 90% !important;
-  width: 95% !important;
-  margin: 5% 0 0 0;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 90vh !important;
+  width: 48vw !important;
+  margin: 3vw 0 3vw 0;
+  box-shadow: 0 1vw 2vw 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  border-radius: 5px;
+  border-radius: 1vw;
   overflow: hidden;
-}
+}   
 
 .contact-button {
   background: none;
-  border: 1px solid #4d4d4d;
-  font-size: 18px;
+  border: 0.005vw solid #4d4d4d;
+  font-size: 1vw;
   font-family: -apple-system,Arial,sans-serif;
   font-weight: 10;
   line-height: 1;
-  margin-top: 10px;
-  padding: 13px 26px;
+  margin-top: 1vw;
+  padding: 1vw 2vw;
   transition: .1s ease-out;
   -webkit-transition: .15s ease-out;
   color: #3b3b3b;
-  transform: translate(10%, 10%) scale(1.2);
 }
 
 .header {
-  height: 5%;
-  margin: 8% 0 0 10%;
+  height: 4vh;
+  margin: 3vh 0 0 4vw;
 }
 
 .footer {
-  height: 8%;
-  margin: 0 0 5% 10%;
+  height: 5vh;
+  margin: 0 0 6vh 4vw;
 }
 
 .left {
   position: fixed;
-  width: 50%;
-  height: 100%;
+  width: 50vw;
+  height: 100vh;
 }
 
 .right {
   float: right;
-  width: 50%;
-  height: 100%;
+  width: 50vw;
+  height: 100vh;
 }
 
 .offset {
@@ -139,16 +143,51 @@ span {
 @media only screen 
 and (max-width : 1000px) {
     img {
-        height: 55%;
-        width: 25%:
+        height: 55vh;
+        width: 25vw;
+    }
+    span {
+      position: absolute;
+    }
+    p {
+      position: absolute;
+      transform: translate(0, 3vh);
+    }
+    .about {
+      height: 50vh;
+      width: 50vw;
+      display: flex;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: left;
+      margin: 5vh 25vw 0 25vw;
+    }
+
+        .about p {
+          position: relative;
+          margin-bottom: 5vh;
+        }
+
+    .card {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      height: 90vh !important;
+      width: 91.5vw !important;
+      margin: 10vh 5vw 5vh 5vw;
+      box-shadow: 0 1vw 2vw 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+      border-radius: 1vw;
+      overflow: hidden;
     }
     .left {
         position: relative;
-        width: 100%;
-        height: 55%;
+        width: 100vw;
+        height: 50vh;
     }
     .right {
         position: relative;
-        width: 100%;
+        width: 100vw;
+        height: 100vh;
     }
 }

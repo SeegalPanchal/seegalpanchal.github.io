@@ -158,6 +158,7 @@ and (max-width : 1000px) {
       align-content: center;
       justify-content: left;
       margin: 5vh 25vw 0 25vw;
+      transform: scale(1.5);
     }
 
     .card {
@@ -165,8 +166,8 @@ and (max-width : 1000px) {
       display: flex;
       flex-direction: column;
       height: 60% !important;
-      width: 60% !important;
-      margin: 20% 20% 20% 20%;
+      width: 80% !important;
+      margin: 20% 10% 20% 10%;
       box-shadow: 0 1vw 2vw 0 rgba(0,0,0,0.2);
       transition: 0.3s;
       border-radius: 1vw;

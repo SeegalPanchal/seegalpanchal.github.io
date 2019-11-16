@@ -67,12 +67,13 @@ p {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  height: 90%;
-  width: 90%;
+  height: 90% !important;
+  width: 90% !important;
   margin: 5% 0 0 5%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .contact-button {
@@ -92,7 +93,7 @@ p {
 
 .header {
   height: 5%;
-  margin: 5% 0 0 10%;
+  margin: 8% 0 0 10%;
 }
 
 .footer {
@@ -128,6 +129,10 @@ p {
 
 @media only screen 
 and (max-width : 1000px) {
+    img {
+        height: 55%;
+        width: 25%:
+    }
     .left {
         position: relative;
         width: 100%;

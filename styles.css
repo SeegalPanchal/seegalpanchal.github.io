@@ -34,12 +34,12 @@ a {
       border: 0.07vw solid #747fe0;
       box-shadow: 0 0.5vh 1vh 0 rgba(0,0,0,0.2);
       color: white;
-      margin: 2.5% 25% 0 13%;
+      margin: 2.5% 25% 0 10%;
     }
     .purple:hover {
       background-color: #838ef8;
       border: 0.07vw solid #838ef8;
-      margin: 2.25% 25% 0.25% 13%;
+      margin: 2.25% 25% 0.25% 10%;
       transition: all 0.05s ease-in-out;
       box-shadow: 0 0.9vh 1.3vh 0 rgba(0,0,0,0.2);
     }
@@ -67,10 +67,10 @@ span {
 }
   .about div {
     clear: both; 
-    margin: 0 0 4% 13%;
+    margin: 0 0 4% 10%;
   }
   .about p {
-    margin: 0 10% 0 13%; 
+    margin: 0 10% 0 10%; 
     font-size: 1vw;
   }
 
@@ -80,9 +80,9 @@ span {
   flex-direction: row;
   flex-wrap: wrap;
   align-content: left;
-  width: 80%;
+  width: 90%;
   height: 42%;
-  margin: 5% 10% 0 10%;
+  margin: 5% 5% 0 5%;
   box-shadow: 0 0.5vh 1vh 0 rgba(0,0,0,0.2);
   overflow: hidden;
 }

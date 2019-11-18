@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 /*----------- Elements ------------*/
 * {
@@ -34,14 +34,15 @@ a {
       border: 0.07vw solid #747fe0;
       box-shadow: 0 0.5vh 1vh 0 rgba(0,0,0,0.2);
       color: white;
-      margin: 2.5% 25% 0 10%;
+      margin: 2.5% 25% 0 13%;
     }
     .purple:hover {
       background-color: #838ef8;
       border: 0.07vw solid #838ef8;
-      margin: 2% 25% 0.5% 10%;
+      margin: 2% 25% 0.5% 13%;
       transition: all 0.3s ease-in-out;
-      box-shadow: 0 0.8vh 1.2vh 0 rgba(0,0,0,0.2);
+      box-shadow: 0 0.9vh 1.3vh 0 rgba(0,0,0,0.2);
+      transform: scale(1.01);
     }
 
 span {
@@ -65,6 +66,14 @@ span {
   justify-content: left;
   line-height: 1.5vw;
 }
+  .about div {
+    clear: both; 
+    margin: 0 0 4% 13%;
+  }
+  .about p {
+    margin: 0 10% 0 13%; 
+    font-size: 1vw;
+  }
 
 .card {
   position: relative;
@@ -75,19 +84,19 @@ span {
   width: 80%;
   height: 42%;
   margin: 4.5% 10% 0 10%;
-  font-family: 'Quicksand', sans-serif;
   box-shadow: 0 0.5vh 1vh 0 rgba(0,0,0,0.2);
   overflow: hidden;
 }
 
 .card-contents {
+  font-family: 'Muli', sans-serif;
   background-size: cover;
   position: absolute;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: left;
-  width: 100%;
+  width: 97%;
   height: 100%;
   line-height: 2.5vh;
 }
@@ -117,19 +126,32 @@ span {
 }
 
 .content {
-  height: 60%;
+  height: 45%;
   width: 100%;
 }
+  .content p {
+    margin: 10% 5% 0 40%; 
+    font-size: 0.8vw;
+  }
 
 .header {
   height: 10%;
   width: 100%;
 }
+  .header h4 {
+    color: grey;
+    margin: 8% 5% 0 40%; 
+    font-size: 2vw; 
+    font-weight: lighter;
+  }
 
 .footer {
-  height: 30%;
+  height: 40%;
   width: 100%;
 }
+  .footer div {
+    margin: 5% 5% 0 40%;
+  }
 
 .skills {
   border: black;

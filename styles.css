@@ -39,10 +39,9 @@ a {
     .purple:hover {
       background-color: #838ef8;
       border: 0.07vw solid #838ef8;
-      margin: 2% 25% 0.5% 13%;
-      transition: all 0.3s ease-in-out;
+      margin: 2.25% 25% 0.25% 13%;
+      transition: all 0.05s ease-in-out;
       box-shadow: 0 0.9vh 1.3vh 0 rgba(0,0,0,0.2);
-      transform: scale(1.01);
     }
 
 span {
@@ -111,8 +110,8 @@ span {
 
 .card-background {
   position: absolute;
-  top: -1px;
-  right: -1px;
+  top: -1vh;
+  right: -1vw;
   height: 110%;
   width: 83%;
   background: url(images/card-background-white.svg);

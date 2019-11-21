@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=B612&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
 
 /*----------- Elements ------------*/
 * {
@@ -66,6 +69,7 @@ span {
   line-height: 1.5vw;
 }
   .about div {
+    font-family: 'Montserrat', sans-serif;
     clear: both; 
     margin: 0 0 4% 12%;
   }
@@ -88,7 +92,7 @@ span {
 }
 
 .card-contents {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-size: cover;
   position: absolute;
   display: flex;

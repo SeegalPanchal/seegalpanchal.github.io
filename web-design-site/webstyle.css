@@ -111,12 +111,28 @@ tr:hover {
   background-color: rgb(70, 107, 134);
 }
 
+.switch-graphic {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
 @media (max-width: 899px) {
 
   /* Basically up to, but not including an iPad */
   /* iPad and bigger */
+  h4 {
+    width: 100%;
+  }
+
   p {
-    width: 75%;
+    width: 100%;
+  }
+
+  ul {
+    width: 80%;
   }
 
   .article {
@@ -189,10 +205,24 @@ tr:hover {
     width: 100%;
   }
 
-  .switch-graphic {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  .navbar a {
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    width: 100%;
+  }
+
+  .navbar a:hover {
+    background: rgb(233, 247, 255);
+    color: black;
+    width: 100%;
+  }
+
+  .switch-image {
+    max-height: 300px;
+    max-width: 100px;
   }
 }
 
@@ -280,10 +310,7 @@ tr:hover {
     width: 100%;
   }
 
-  .switch-graphic {
-    float: left;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  .switch-image {
+    height: 200px;
   }
 }

@@ -59,7 +59,6 @@ tr:hover {
   background-color: #ddd;
 }
 
-
 .navbar a {
   color: white;
   text-align: center;
@@ -69,7 +68,7 @@ tr:hover {
 }
 
 .navbar a:hover {
-  background: #ddd !important;
+  background: rgb(233, 247, 255);
   color: black;
 }
 

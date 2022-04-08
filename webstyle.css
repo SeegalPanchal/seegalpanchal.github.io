@@ -1,0 +1,290 @@
+html {
+  background: url(images/bg-white.png), white;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  overflow-x: hidden;
+}
+
+head,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Helvetica';
+  line-height: 24px;
+}
+
+button {
+  position: absolute;
+  float: right;
+  margin: 15px 15px 0 0;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  bottom: 0;
+  margin: 30px 0;
+  background-color: rgba(251, 211, 199, 0);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  color:white;
+  background-color: #393939;
+}
+
+td {
+  width: 50%;
+}
+
+tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 28px;
+}
+
+.navbar a:hover {
+  background: #ddd !important;
+  color: black;
+}
+
+.navbar img {
+  max-height: 60px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-content {
+  padding: 25px;
+}
+
+.switch-link {
+  right: 0;
+  background-color: rgb(40, 58, 89);
+  margin: 0 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+
+  cursor: pointer;
+  transition: .3s;
+}
+
+.switch-link:hover {
+  background-color: rgb(70, 107, 134);
+  box-shadow: 0 1vh 1vh 0 rgba(0, 0, 0, 0.2);
+  margin: -5px 0 15px 0;
+}
+
+@media (max-width: 899px) {
+
+  /* Basically up to, but not including an iPad */
+  /* iPad and bigger */
+  .article {
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0.5vh 1vh 0 rgba(0, 0, 0, 0.2);
+    margin: 25px 0;
+    background-color: white;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 58, 89);
+    width: 100%;
+  }
+
+  p {
+    width: 75%;
+  }
+
+  .card-button {
+    float: right;
+    margin: 0 20px 20px 0;
+    background-color: rgb(40, 58, 89);
+    box-shadow: 0 0.5vh 1vh 0 rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: .3s;
+    font-size: 20px;
+  }
+
+  .card-button:hover {
+    background-color: rgb(70, 107, 134);
+    box-shadow: 0 1vh 1vh 0 rgba(0, 0, 0, 0.2);
+    margin: -5px 20px 25px 0;
+  }
+
+  .card {
+    position: relative;
+    height: 40%;
+    width: 80%;
+    box-shadow: 0 0.5vh 1vh 0 rgba(0, 0, 0, 0.2);
+    margin: 20px 0 20px 0;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .card-image {
+    display: none;
+  }
+
+  .card-background {
+    display: none;
+  }
+
+  .card-contents {
+    margin: 50px 0 25px 10%;
+    width: 80%;
+    height: 100%;
+    line-height: 24px;
+  }
+
+  .switch-graphic {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 900px) {
+
+  /* iPad and bigger */
+  .article {
+    width: 850px;
+    border-radius: 10px;
+    box-shadow: 0 0.5vh 1vh 0 rgba(0, 0, 0, 0.2);
+    margin: 25px 0;
+    background-color: white;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(40, 58, 89);
+    width: 100%;
+  }
+
+  .card-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(40, 58, 89);
+    box-shadow: 0 0.5vh 1vh 0 rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+
+    cursor: pointer;
+    transition: .3s;
+    font-size: 20px;
+  }
+
+  .card-button:hover {
+    background-color: rgb(70, 107, 134);
+    box-shadow: 0 1vh 1vh 0 rgba(0, 0, 0, 0.2);
+    margin: -0.25% 0 0.25% 0;
+  }
+
+  .card {
+    position: relative;
+    height: 400px;
+    width: 850px;
+    box-shadow: 0 0.5vh 1vh 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px 0 20px 0;
+    border-radius: 10px;
+  }
+
+  .card-image {
+    height: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .card-background {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    height: 110%;
+    width: 75%;
+    background: url(images/card-background-white.svg);
+    background-size: cover;
+  }
+
+  .card-contents {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 50%;
+    height: 100%;
+    line-height: 24px;
+  }
+
+  .switch-graphic {
+    display: flex;
+    flex-direction: row;
+  }
+}

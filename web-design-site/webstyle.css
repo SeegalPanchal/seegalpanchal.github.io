@@ -135,6 +135,10 @@ tr:hover {
     width: 80%;
   }
 
+  .about {
+    max-width: 80%;
+  }
+
   .article {
     width: 80%;
     border-radius: 10px;
@@ -229,6 +233,10 @@ tr:hover {
 @media (min-width: 900px) {
 
   /* iPad and bigger */
+  .about {
+    max-width: 800px;
+  }
+
   .article {
     width: 850px;
     border-radius: 10px;

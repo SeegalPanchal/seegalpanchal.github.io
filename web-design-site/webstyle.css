@@ -90,7 +90,6 @@ tr:hover {
 }
 
 .switch-link {
-  right: 0;
   background-color: rgb(40, 58, 89);
   margin: 0 0 10px 0;
   display: flex;
@@ -110,8 +109,6 @@ tr:hover {
 
 .switch-link:hover {
   background-color: rgb(70, 107, 134);
-  box-shadow: 0 1vh 1vh 0 rgba(0, 0, 0, 0.2);
-  margin: -5px 0 15px 0;
 }
 
 @media (max-width: 899px) {
@@ -195,6 +192,7 @@ tr:hover {
   .switch-graphic {
     display: flex;
     flex-direction: column;
+    width: 50%;
   }
 }
 
@@ -283,7 +281,9 @@ tr:hover {
   }
 
   .switch-graphic {
+    float: left;
     display: flex;
     flex-direction: row;
+    width: 100%;
   }
 }

@@ -58,11 +58,6 @@ span {
   line-height: 5vh;
 }
 /*----------- Custom Classes ------------*/
-.parent {
-  display: flex;
-  justify-content: center;
-}
-
 .about {
   height: 100%;
   width: 40%;
@@ -71,7 +66,7 @@ span {
   flex-wrap: wrap;
   align-content: center;
   justify-content: left;
-  line-height: 30px;
+  line-height: 1.5vw;
 }
   .about div {
     font-family: 'Montserrat', sans-serif;
